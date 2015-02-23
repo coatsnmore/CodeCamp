@@ -5,11 +5,10 @@ angular.module('codeCamp').controller('PlayController', ['$scope', '$location',
 	function($scope, $location) {
 
 		$scope.instrument = "piano";
+		$scope.player = Synth.createInstrument($scope.instrument);
 		$scope.note = "A";
 		$scope.interval = 3;
 		$scope.seconds = 1;
-
-		$scope.player = Synth.createInstrument($scope.instrument);
 
 		$scope.$watch('instrument', function(newValue, oldValue) {
 			$scope.player = Synth.createInstrument(newValue);
