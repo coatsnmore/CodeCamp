@@ -1,6 +1,6 @@
 # CodeCamp
 
-A demonstration of AngularJS and exploration of the Web Audio API
+A demonstration of AngularJS and exploration of the Web Audio API.  Runs on a simple node.js server.
 
 # To Run Locally
 
