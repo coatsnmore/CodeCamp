@@ -1,0 +1,23 @@
+<section id="simplePlay">
+	<h1>
+	Pick a note and play!
+	</h1>
+	<div class="controls">
+		<div class="content">
+			Every sound starts as a sine wave.  Modify the frequency to achieve pitch.  Modify the slope of the wave to shape the envelope.  Modify the shape of the envelope to achieve an approximation of an instrument.
+		</div>
+		<select ng-model="instrument">
+			<option value="piano">Piano</option>
+			<option value="guitar">Guitar</option>
+		</select>
+		<select ng-model="note">
+			<option value="A">A</option>
+			<option value="B">B</option>
+		</select>
+	</div>
+</section>
+<section>
+	<div class="player">
+		<button ng-click="playNote()">Play Note</button>
+	</div>
+</section>
