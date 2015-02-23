@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="19"  lines-covered="6"  line-rate="0.31579999999999997"  branches-valid="0"  branches-covered="0"  branch-rate="1"  timestamp="1424660353861" complexity="0" version="0.1">
+<coverage lines-valid="24"  lines-covered="6"  line-rate="0.25"  branches-valid="0"  branches-covered="0"  branch-rate="1"  timestamp="1424661543271" complexity="0" version="0.1">
 <sources>
 	<source>C:\devl\codecamp</source>
 </sources>
 <packages>
-	<package name="app"  line-rate="0.31579999999999997"  branch-rate="1" >
+	<package name="app"  line-rate="0.25"  branch-rate="1" >
 	<classes>
 		<class name="ccNavigate.js"  filename="src\app\ccNavigate.js"  line-rate="0.125"  branch-rate="1" >
 		<methods>
@@ -51,21 +51,29 @@
 			<line number="15"  hits="0"  branch="false" />
 		</lines>
 		</class>
-		<class name="playController.js"  filename="src\app\playController.js"  line-rate="0.2"  branch-rate="1" >
+		<class name="playController.js"  filename="src\app\playController.js"  line-rate="0.1"  branch-rate="1" >
 		<methods>
 			<method name="(anonymous_1)"  hits="0"  signature="()V" >
 				<lines><line number="5"  hits="0" /></lines>
 			</method>
 			<method name="(anonymous_2)"  hits="0"  signature="()V" >
-				<lines><line number="10"  hits="0" /></lines>
+				<lines><line number="14"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_3)"  hits="0"  signature="()V" >
+				<lines><line number="18"  hits="0" /></lines>
 			</method>
 		</methods>
 		<lines>
 			<line number="4"  hits="1"  branch="false" />
 			<line number="7"  hits="0"  branch="false" />
 			<line number="8"  hits="0"  branch="false" />
+			<line number="9"  hits="0"  branch="false" />
 			<line number="10"  hits="0"  branch="false" />
-			<line number="11"  hits="0"  branch="false" />
+			<line number="12"  hits="0"  branch="false" />
+			<line number="14"  hits="0"  branch="false" />
+			<line number="15"  hits="0"  branch="false" />
+			<line number="18"  hits="0"  branch="false" />
+			<line number="19"  hits="0"  branch="false" />
 		</lines>
 		</class>
 	</classes>

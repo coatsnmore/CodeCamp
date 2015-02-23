@@ -6,9 +6,17 @@ angular.module('codeCamp').controller('PlayController', ['$scope', '$location',
 
 		$scope.instrument = "piano";
 		$scope.note = "A";
+		$scope.interval = 3;
+		$scope.seconds = 1;
+
+		$scope.player = Synth.createInstrument($scope.instrument);
+
+		$scope.$watch('instrument', function(newValue, oldValue) {
+			$scope.player = Synth.createInstrument(newValue);
+		});
 
 		$scope.playNote = function() {
-			console.log("playing note...");
+			$scope.player.play($scope.note, $scope.interval, $scope.seconds);
 		};
 	}
 ]);
