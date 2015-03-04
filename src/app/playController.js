@@ -1,8 +1,8 @@
 /**
  * Simple note music player
  */
-angular.module('codeCamp').controller('PlayController', ['$scope', '$location',
-	function($scope, $location) {
+angular.module('codeCamp').controller('PlayController', ['$scope',
+	function($scope) {
 
 		$scope.instrument = "piano";
 		$scope.player = Synth.createInstrument($scope.instrument);
@@ -19,3 +19,4 @@ angular.module('codeCamp').controller('PlayController', ['$scope', '$location',
 		};
 	}
 ]);
+
