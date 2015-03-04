@@ -35,11 +35,4 @@ describe('PlayController', function() {
 			expect($scope.seconds).toEqual(1);
 		});
 	});
-
-
-	// $scope.instrument = "piano";
-	// $scope.player = Synth.createInstrument($scope.instrument);
-	// $scope.note = "A";
-	// $scope.interval = 3;
-	// $scope.seconds = 1;
 });

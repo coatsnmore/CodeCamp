@@ -23,11 +23,8 @@ module.exports = function(grunt) {
 				unit: {
 					options: {
 						frameworks: ['jasmine'],
-						// singleRun: true,
 						// browsers: ['PhantomJS'],
-						// runnerPort: 9999,
 						browsers: ['Chrome'],
-							// files: ['src/vendor/jquery.min.js', 'src/vendor/angular-1.2.16.js', 'src/vendor/angular-mocks-1.2.16.js', 'src/vendor/angular-route-1.2.16.js', 'src/vendor/angular-resources-1.2.16.js', 'src/vendor/audiosynth.js','src/app/**/*.js','spec/**/*.js']
 						files: ['src/vendor/**/*.js', 'src/app/**/*.js', 'spec/**/*.js'],
 						autowatch: true
 					}
@@ -36,12 +33,9 @@ module.exports = function(grunt) {
 			jasmine: {
 				codeCamp: {
 					src: 'src/app/**/*.js',
-					// src: '../ggts/mc/mc-web-int/web-app/js/app/**/*.js',
 					options: {
 						specs: 'spec/*Spec.js',
-						// specs: '../ggts/mc/mc-web-int/jasmine/spec/PlentiSpec.js',
 						vendor: ['src/vendor/jquery.min.js','src/vendor/angular-1.2.16.js', 'src/vendor/angular-mocks-1.2.16.js', 'src/vendor/angular-route-1.2.16.js', 'src/vendor/angular-resources-1.2.16.js', 'src/vendor/audiosynth.js'],
-						// vendor: '../ggts/mc/mc-web-int/web-app/js/vendor/*.js',
 						outfile: 'spec/reports/_SpecRunner.html',
 						keepRunner: 'true', // keep SpecRunner/outfile file
 						template: require('grunt-template-jasmine-istanbul'),
