@@ -1,13 +1,13 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="18"  lines-covered="11"  line-rate="0.6111"  branches-valid="0"  branches-covered="0"  branch-rate="1"  timestamp="1425445272985" complexity="0" version="0.1">
+<coverage lines-valid="18"  lines-covered="11"  line-rate="0.6111"  branches-valid="0"  branches-covered="0"  branch-rate="1"  timestamp="1425525014004" complexity="0" version="0.1">
 <sources>
-	<source>C:\devl\codecamp</source>
+	<source>/Users/nicholascoats/Documents/devl/CodeCamp</source>
 </sources>
 <packages>
 	<package name="app"  line-rate="0.6111"  branch-rate="1" >
 	<classes>
-		<class name="codeCamp.js"  filename="src\app\codeCamp.js"  line-rate="0.375"  branch-rate="1" >
+		<class name="codeCamp.js"  filename="src/app/codeCamp.js"  line-rate="0.375"  branch-rate="1" >
 		<methods>
 			<method name="(anonymous_1)"  hits="4"  signature="()V" >
 				<lines><line number="1"  hits="4" /></lines>
@@ -36,7 +36,7 @@
 			<line number="23"  hits="0"  branch="false" />
 		</lines>
 		</class>
-		<class name="playController.js"  filename="src\app\playController.js"  line-rate="0.8"  branch-rate="1" >
+		<class name="playController.js"  filename="src/app/playController.js"  line-rate="0.8"  branch-rate="1" >
 		<methods>
 			<method name="(anonymous_1)"  hits="4"  signature="()V" >
 				<lines><line number="5"  hits="4" /></lines>

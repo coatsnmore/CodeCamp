@@ -4,17 +4,18 @@ A demonstration of AngularJS and exploration of the Web Audio API.  Runs on a si
 
 # To Install
 
-Run the following to install node modules:
+## Run the following to install node modules:
 
-npm install
+>npm install
 
 # To Run Locally
 
-Run the following:
+## Run the following:
 
-npm install connect serve-static
+>npm install connect serve-static
+>node server.js
 
-node server.js
+## Open your browser at http://localhost:8080/codeCamp.html
 
 # Vendor Javascript Dependencies Managed Outside of node
 
@@ -24,21 +25,24 @@ musicPlayer.js from https://github.com/coatsnmore/MusicPlayerJS.git
 
 # Testing
 
-Jasmine thats runs in two ways:
+## Jasmine thats runs in two ways:
 
-1) Directly from grunt in the headless PhantomJS browser.  This will generate a summary file and run a static complexity analysis.
+* Directly from grunt in the headless PhantomJS browser.  This will generate a summary file and run a static complexity analysis.
 
-'grunt watch' and 'grunt jasmine'
+>grunt watch
+>grunt jasmine
 
-2) Through karma in Chrome.  Currently watches Jasmine and source for changes.
+* Through karma in Chrome.  Currently watches Jasmine and source for changes.
+
+>grunt karma
 
 # Tool Chain List
 
-node
-grunt
-jasmine
-grunt
-uglify
-jshint
-karma
+*node
+*grunt
+*jasmine
+*grunt
+*uglify
+*jshint
+*karma
 
