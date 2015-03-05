@@ -17,8 +17,8 @@ A demonstration of AngularJS and exploration of the Web Audio API.  Runs on a si
 
 ## Vendor Javascript Dependencies Managed Outside of node
 
-*audioSynth.js from https://github.com/keithwhor/audiosynth
-*musicPlayer.js from https://github.com/coatsnmore/MusicPlayerJS.git
+* audioSynth.js from https://github.com/keithwhor/audiosynth
+* musicPlayer.js from https://github.com/coatsnmore/MusicPlayerJS.git
 
 # Testing
 
@@ -35,11 +35,11 @@ A demonstration of AngularJS and exploration of the Web Audio API.  Runs on a si
 
 # Tool Chain List
 
-*node
-*grunt
-*jasmine
-*grunt
-*uglify
-*jshint
-*karma
+* node
+* grunt
+* jasmine
+* grunt
+* uglify
+* jshint
+* karma
 
