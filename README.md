@@ -2,26 +2,23 @@
 
 A demonstration of AngularJS and exploration of the Web Audio API.  Runs on a simple node.js server serving static content.
 
-# To Install
-
-## Run the following to install node modules:
+## Install the dependencies:
 
 >npm install
 
-# To Run Locally
-
-## Run the following:
+## Run the application server:
 
 >npm install connect serve-static
 >node server.js
 
-## Open your browser at http://localhost:8080/codeCamp.html
+## Open your browser:
 
-# Vendor Javascript Dependencies Managed Outside of node
+>http://localhost:8080/codeCamp.html
 
-audioSynth.js from https://github.com/keithwhor/audiosynth
+## Vendor Javascript Dependencies Managed Outside of node
 
-musicPlayer.js from https://github.com/coatsnmore/MusicPlayerJS.git
+*audioSynth.js from https://github.com/keithwhor/audiosynth
+*musicPlayer.js from https://github.com/coatsnmore/MusicPlayerJS.git
 
 # Testing
 
