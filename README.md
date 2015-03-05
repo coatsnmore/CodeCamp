@@ -27,6 +27,7 @@ A demonstration of AngularJS and exploration of the Web Audio API.  Runs on a si
 * Directly from grunt in the headless PhantomJS browser.  This will generate a summary file and run a static complexity analysis.
 
 >grunt watch
+
 >grunt jasmine
 
 * Through karma in Chrome.  Currently watches Jasmine and source for changes.
