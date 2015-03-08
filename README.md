@@ -4,12 +4,13 @@ A demonstration of AngularJS and exploration of the Web Audio API.  Runs on a si
 
 ## Install the dependencies:
 
->npm install
+	npm install
+
+	npm install connect serve-static
 
 ## Run the application server:
 
->npm install connect serve-static
->node server.js
+	node server.js
 
 ## Open your browser:
 
@@ -26,13 +27,13 @@ A demonstration of AngularJS and exploration of the Web Audio API.  Runs on a si
 
 * Directly from grunt in the headless PhantomJS browser.  This will generate a summary file and run a static complexity analysis.
 
->grunt watch
+	grunt watch
 
->grunt jasmine
+	grunt jasmine
 
 * Through karma in Chrome.  Currently watches Jasmine and source for changes.
 
->grunt karma
+	grunt karma
 
 # Tool Chain List
 
