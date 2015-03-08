@@ -14,7 +14,7 @@ A demonstration of AngularJS and exploration of the Web Audio API.  Runs on a si
 
 ## Open your browser:
 
-[http://localhost:8080/codeCamp.html]
+[http://localhost:8080/codeCamp.html](http://localhost:8080/codeCamp.html)
 
 ## Vendor Javascript Dependencies Managed Outside of node
 
